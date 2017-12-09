@@ -22,8 +22,12 @@
     "npm-shrinkwrap.json"
   ],
   "dependencies": {
+    "@pnpm/default-fetcher": "^0.2.0",
+    "@pnpm/default-resolver": "^0.1.0",
     "@pnpm/logger": "^1.0.0",
     "@pnpm/outdated": "^0.2.1",
+    "@pnpm/package-requester": "^0.4.0",
+    "@pnpm/server": "^0.2.0",
     "@zkochan/libnpx": "^9.6.1",
     "byline": "^5.0.0",
     "camelcase": "^4.1.0",
@@ -36,6 +40,7 @@
     "loud-rejection": "^1.6.0",
     "nopt": "^4.0.1",
     "not-bundled-npm": "^5.4.2",
+    "package-store": "^0.11.0",
     "path-name": "^1.0.0",
     "pnpm-default-reporter": "^0.10.3",
     "pnpm-file-reporter": "^0.0.1",
